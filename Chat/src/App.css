@@ -1,0 +1,61 @@
+
+
+.project {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10px;
+  font-size: 30px;
+}
+
+.login {
+  position: relative;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 500px;
+    min-height: 400px;
+    background-color: rgba(218, 213, 213, 0.836);
+}
+.username, .room{
+  width: 80%;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+#butt {
+  margin-top: 40px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border: 0px;
+  width: 300px;
+  height: 50px;
+}
+
+
+.btn:hover {
+transition: 300ms;
+background-color: rgb(167, 161, 252);
+}
